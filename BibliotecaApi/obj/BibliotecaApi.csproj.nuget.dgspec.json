@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dsadw\\OneDrive\\Escritorio\\aplicacionoes\\clases\\BibliotecaApi\\BibliotecaApi\\BibliotecaApi.csproj": {}
+    "C:\\Users\\dsadw\\OneDrive\\Escritorio\\aplicacionoes\\clases\\BibliotecaApi\\BibliotecaApi\\desarrollo_avanzado\\BibliotecaApi\\BibliotecaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dsadw\\OneDrive\\Escritorio\\aplicacionoes\\clases\\BibliotecaApi\\BibliotecaApi\\BibliotecaApi.csproj": {
+    "C:\\Users\\dsadw\\OneDrive\\Escritorio\\aplicacionoes\\clases\\BibliotecaApi\\BibliotecaApi\\desarrollo_avanzado\\BibliotecaApi\\BibliotecaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dsadw\\OneDrive\\Escritorio\\aplicacionoes\\clases\\BibliotecaApi\\BibliotecaApi\\BibliotecaApi.csproj",
+        "projectUniqueName": "C:\\Users\\dsadw\\OneDrive\\Escritorio\\aplicacionoes\\clases\\BibliotecaApi\\BibliotecaApi\\desarrollo_avanzado\\BibliotecaApi\\BibliotecaApi.csproj",
         "projectName": "BibliotecaApi",
-        "projectPath": "C:\\Users\\dsadw\\OneDrive\\Escritorio\\aplicacionoes\\clases\\BibliotecaApi\\BibliotecaApi\\BibliotecaApi.csproj",
+        "projectPath": "C:\\Users\\dsadw\\OneDrive\\Escritorio\\aplicacionoes\\clases\\BibliotecaApi\\BibliotecaApi\\desarrollo_avanzado\\BibliotecaApi\\BibliotecaApi.csproj",
         "packagesPath": "C:\\Users\\dsadw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dsadw\\OneDrive\\Escritorio\\aplicacionoes\\clases\\BibliotecaApi\\BibliotecaApi\\obj\\",
+        "outputPath": "C:\\Users\\dsadw\\OneDrive\\Escritorio\\aplicacionoes\\clases\\BibliotecaApi\\BibliotecaApi\\desarrollo_avanzado\\BibliotecaApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dsadw\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,13 +46,9 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[10.0.10, )"
-            },
             "Npgsql": {
               "target": "Package",
-              "version": "[10.0.3, )"
+              "version": "[11.0.0, )"
             }
           },
           "imports": [

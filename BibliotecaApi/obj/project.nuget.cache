@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Dq5jreWNaTc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dsadw\\OneDrive\\Escritorio\\aplicacionoes\\clases\\BibliotecaApi\\BibliotecaApi\\desarrollo_avanzado\\BibliotecaApi\\BibliotecaApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dsadw\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0\\microsoft.extensions.dependencyinjection.abstractions.11.0.0.nupkg.sha512",
+    "C:\\Users\\dsadw\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\11.0.0\\microsoft.extensions.logging.abstractions.11.0.0.nupkg.sha512",
+    "C:\\Users\\dsadw\\.nuget\\packages\\npgsql\\11.0.0\\npgsql.11.0.0.nupkg.sha512",
+    "C:\\Users\\dsadw\\.nuget\\packages\\system.diagnostics.diagnosticsource\\11.0.0\\system.diagnostics.diagnosticsource.11.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
