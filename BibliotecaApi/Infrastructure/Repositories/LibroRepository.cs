@@ -14,7 +14,6 @@ public class LibroRepository : ILibroRepository
             ?? throw new InvalidOperationException("La cadena de conexión 'DefaultConnection' no está configurada.");
     }
 
-    // 1. Obtener todos los libros (SELECT)
     public async Task<IEnumerable<Libro>> ObtenerTodosAsync()
     {
         var libros = new List<Libro>();
@@ -40,7 +39,6 @@ public class LibroRepository : ILibroRepository
         return libros;
     }
 
-    // 2. Obtener un libro por su ID (SELECT con parámetro @id)
     public async Task<Libro?> ObtenerPorIdAsync(int id)
     {
         await using var conn = new NpgsqlConnection(_connectionString);
@@ -65,7 +63,6 @@ public class LibroRepository : ILibroRepository
         return null;
     }
 
-    // 3. Insertar un libro nuevo y devolver su ID generado (INSERT ... RETURNING)
     public async Task<Libro> CrearAsync(Libro libro)
     {
         await using var conn = new NpgsqlConnection(_connectionString);
@@ -87,7 +84,6 @@ public class LibroRepository : ILibroRepository
         return libro;
     }
 
-    // 4. Actualizar un libro existente (UPDATE)
     public async Task<bool> ActualizarAsync(Libro libro)
     {
         await using var conn = new NpgsqlConnection(_connectionString);
@@ -108,7 +104,6 @@ public class LibroRepository : ILibroRepository
         return filasAfectadas > 0;
     }
 
-    // 5. Eliminar un libro (DELETE)
     public async Task<bool> EliminarAsync(int id)
     {
         await using var conn = new NpgsqlConnection(_connectionString);
@@ -122,7 +117,6 @@ public class LibroRepository : ILibroRepository
         return filasAfectadas > 0;
     }
 
-    // 6. Verificar si el libro tiene préstamos asociados antes de borrarlo
     public async Task<bool> TienePrestamosAsociadosAsync(int id)
     {
         await using var conn = new NpgsqlConnection(_connectionString);
